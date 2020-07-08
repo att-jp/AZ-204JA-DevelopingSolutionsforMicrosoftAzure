@@ -72,7 +72,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     
     1.  **リソース グループ** セクションで、**新規作成** を選択し、**PolyglotData** を入力し、**OK**を選択します。
     
-    1.  **Server name** テキスト ボックスに、 **polysqlsrvr*[yourname]***を入力します。
+    1.  **Server name** テキスト ボックスに、 **polysqlsrvr[yourname]**を入力します。
     
     1.  「**場所**」 ドロップダウン リストで、**米国東部 (米国)** を選択します。
     
@@ -118,7 +118,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     
     1.  「**リソース グループ**」 セクションで、リストから 「**PolyglotData**」 を選択します。
     
-    1.  「**AccountName**」 テキスト ボックスに 「**polycosmos*[yourname]***」 と入力します。
+    1.  「**AccountName**」 テキスト ボックスに 「**polycosmos[yourname]**」 と入力します。
     
     1.  「**API**」 ドロップダウン リストで、「**コア (SQL)**」 を選択します。
 
@@ -142,7 +142,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  **リソース グループ** ブレードで、 この実習ラボで前に作成した **PolyglotData** リソース グループを見つけて選択します。
 
-1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した**polycosmos*[yourname]***  Azure Cosmos DB アカウントを選択します。
+1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した**polycosmos[yourname]**  Azure Cosmos DB アカウントを選択します。
 
 1.  **Azure Cosmos DB アカウント** ブレードで、 **Settings**セクションを見つけて、**Keys**リンクを選択します。
 
@@ -168,7 +168,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     
     1.  「**リソース グループ**」 セクションで、リストから 「**PolyglotData**」 を選択します。
     
-    1.  「**ストレージ アカウント名**」 テキスト ボックスに、「**polystor*[yourname]***」と入力します。
+    1.  「**ストレージ アカウント名**」 テキスト ボックスに、「**polystor[yourname]**」と入力します。
     
     1.  **Location** ドロップダウン リストで、 **(US) East US** リージョンを選択します。
     
@@ -200,7 +200,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  「**リソース グループ**」 ブレードで、 この課題で先ほど作成した **PolyglotData** リソース グループを見つけて選択します。
 
-1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した **polystor*[yourname]***ストレージ アカウントを選択します。
+1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した **polystor[yourname]**ストレージ アカウントを選択します。
 
 1.  「**ストレージ アカウント**」 ブレードで、「**Blob service**」 セクションの 「**Containers**」 リンクを選択します。
 
@@ -240,7 +240,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  「**リソース グループ**」 ブレードで、 この課題で先ほど作成した **PolyglotData** リソース グループを見つけて選択します。
 
-1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した **polystor*[yourname]*** ストレージ アカウントを選択します。
+1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した **polystor[yourname]** ストレージ アカウントを選択します。
 
 1.  「**ストレージ アカウント**」 ブレードで、「**Blob service**」 セクションの 「**Containers**」 リンクを選択します。
 
@@ -274,7 +274,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  「**リソース グループ**」 ブレードで、 この課題で先ほど作成した **PolyglotData** リソース グループを見つけて選択します。
 
-1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した **polysqlsrvr*[yourname]***  SQL サーバーを選択します。
+1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した **polysqlsrvr[yourname]**  SQL サーバーを選択します。
 
 1.  **SQL サーバー** ブレードで、**データベースのインポート** を選択します。
 
@@ -284,7 +284,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
     1.  「**ストレージ**」 オプションを選択します。
 
-    1.  「**ストレージ アカウント**」 ブレード で、この実習ラボで作成済みの **polystor*[yourname]*** ストレージ アカウントを選択します。 
+    1.  「**ストレージ アカウント**」 ブレード で、この実習ラボで作成済みの **polystor[yourname]** ストレージ アカウントを選択します。 
 
     1.  **コンテナー**ブレードで、このラボで以前に作成した **データベース** コンテナを選択します 。 
 
@@ -310,7 +310,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  「**リソース グループ**」 ブレードで、 この課題で先ほど作成した **PolyglotData** リソース グループを見つけて選択します。
 
-1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した **polysqlsrvr*[yourname]***  SQL サーバーを選択します。
+1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した **polysqlsrvr[yourname]**  SQL サーバーを選択します。
 
 1.  「**SQL Server**」 ブレードで、ブレードから 「**セキュリティ**」 セクションを見つけ、「**ファイアウォールと仮想ネットワーク**」 リンクを選択します。
 
@@ -763,7 +763,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  「**リソース グループ**」 ブレードで、 この課題で先ほど作成した **PolyglotData** リソース グループを見つけて選択します。
 
-1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した **polycosmos*[yourname]***  Azure Cosmos DB アカウントを選択します。
+1.  **PolyglotData** ブレードで、 この実習ラボで前に作成した **polycosmos[yourname]**  Azure Cosmos DB アカウントを選択します。
 
 1.  「**Azure Cosmos DB アカウント**」 ブレードで、ブレードから 「**Data Explorer**」 リンクを見つけて選択します。
 
@@ -961,7 +961,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
     ```
     string query = $@"SELECT VALUE products
-                        FROM モデル
+                        FROM models
                         JOIN products in models.Products
                         WHERE products.id = '{id}'";
 

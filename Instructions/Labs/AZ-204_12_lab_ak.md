@@ -22,7 +22,7 @@ Microsoft は、コミュニティが必要な変更を行うと、このトレ�
 
 次の認証情報を使用して、Windows 10 仮想マシン (VM) にログインします。
     
--   ユーザー名: **管理者**
+-   ユーザー名: **Admin**
 
 -   パスワード: **Pa55w.rd**
 
@@ -76,7 +76,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     
     1.  「**リソース グループ**」 セクションで、「**新規作成**」 を選択し、「**MonitoredAssets**」 を入力し、「**OK**」 を選択します。
     
-    1.  「**名前**」 テキスト ボックスに 「**instrm*[yourname]***」 と入力します。
+    1.  「**名前**」 テキスト ボックスに 「**instrm[yourname]**」 と入力します。
     
     1.  「**リージョン**」 ドロップダウン リストで、「**米国東部**」 のリージョンを選択します。
     
@@ -92,7 +92,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  **リソース グループ** ブレードで、 この課題で以前に作成した **MonitoredAssets** リソース グループを選択します。
 
-1.  「**MonitoredAssets**」 ブレードで、この課題で以前に作成した **instrm*[yourname]*** Application Insights アカウントを選択します。
+1.  「**MonitoredAssets**」 ブレードで、この課題で以前に作成した **instrm[yourname]** Application Insights アカウントを選択します。
 
 1.  **Application Insights** ブレードの 「**構成**」 カテゴリーで 「**プロパティ**」 リンクを選択します。     
 
@@ -120,7 +120,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     
     1.  「**リソース グループ**」 ドロップダウン リストで、「**MonitoredAssets**」 を選択します。
     
-    1.  「**名前**」 テキスト ボックスに「***smpapi\***[yourname]***」と入力します。
+    1.  「**名前**」 テキスト ボックスに「***smpapi\[yourname]」と入力します。
 
     1.  「**発行**」 セクションで 「**コード**」 を選択します。
 
@@ -140,7 +140,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
     1.  「**Application Insights を有効にする**」 セクションで 「**はい**」 を選択します。
 
-    1.  「**Application Insights**」 ドロップダウン リストで、 この課題で以前に作成した **instrm*[yourname]*** Application Insights アカウントを選択します。
+    1.  「**Application Insights**」 ドロップダウン リストで、 この課題で以前に作成した **instrm[yourname]** Application Insights アカウントを選択します。
 
     1.  **「確認および作成」** を選択します。
 
@@ -154,7 +154,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  **リソース グループ** ブレードで、 この課題で以前に作成した **MonitoredAssets** リソース グループを選択します。
 
-1.  **MonitoredAssets** ブレードで、 この課題で以前に作成した ***smpapi\***[yourname]*** Web アプリを選択します。
+1.  **MonitoredAssets** ブレードで、 この課題で以前に作成した ***smpapi\[yourname] Web アプリを選択します。
 
 1.  **App Service** ブレードの 「**設定**」 カテゴリで、「**構成**」 リンクを選択します。
 
@@ -328,7 +328,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  「**リソース グループ**」 ブレードで、 この課題で以前に作成した **MonitoredAssets** リソース グループを見つけて選択します。
 
-1.  「**MonitoredAssets**」 ブレードで、この課題で以前に作成した **instrm*[yourname]*** Application Insights アカウントを選択します。
+1.  「**MonitoredAssets**」 ブレードで、この課題で以前に作成した **instrm[yourname]** Application Insights アカウントを選択します。
 
 1.  「**Application Insights**」 ブレードから、ブレードの中央にあるタイルで、表示されている指標を確認します。具体的には、発生したサーバー要求の数と平均サーバー応答時間を確認します。
 
@@ -408,7 +408,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  **リソース グループ** ブレードで、 この課題で以前に作成した **MonitoredAssets** リソース グループを選択します。
 
-1.  **MonitoredAssets** ブレードで、 この課題で以前に作成した ***smpapi\***[yourname]*** Web アプリを選択します。
+1.  **MonitoredAssets** ブレードで、 この課題で以前に作成した ***smpapi\[yourname] Web アプリを選択します。
 
 1.  **App Service** ブレードで、「**参照**」 を選択します。新しいブラウザー ウインドウまたはタブが開き、「404 (見つかりません)」エラーが返されます。
 
@@ -426,7 +426,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  **リソース グループ** ブレードで、 この課題で以前に作成した **MonitoredAssets** リソース グループを選択します。
 
-1.  **MonitoredAssets** ブレードで、 この課題で以前に作成した ***smpapi\***[yourname]*** Web アプリを選択します。
+1.  **MonitoredAssets** ブレードで、 この課題で以前に作成した ***smpapi\[yourname] Web アプリを選択します。
 
 1.  **App Service** ブレードで 「**Application Insights**」 を選択します。   
 
@@ -470,7 +470,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  「**リソース グループ**」 ブレードで、 この課題で以前に作成した **MonitoredAssets** リソース グループを見つけて選択します。
 
-1.  「**MonitoredAssets**」 ブレードで、この課題で以前に作成した **instrm*[yourname]*** Application Insights アカウントを選択します。
+1.  「**MonitoredAssets**」 ブレードで、この課題で以前に作成した **instrm[yourname]** Application Insights アカウントを選択します。
 
 1.  「**Application Insights**」 ブレードから、ブレードの中央にあるタイルで、表示されている指標を確認します。具体的には、発生したサーバー要求の数と平均サーバー応答時間を確認します。
 
@@ -484,7 +484,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  「**リソース グループ**」 ブレードで、 この課題で以前に作成した **MonitoredAssets** リソース グループを見つけて選択します。
 
-1.  「**MonitoredAssets**」 ブレードで、この課題で以前に作成した **instrm*[yourname]*** Application Insights アカウントを選択します。
+1.  「**MonitoredAssets**」 ブレードで、この課題で以前に作成した **instrm[yourname]** Application Insights アカウントを選択します。
 
 1.  **Application Insights** ブレードで、「**調査**」 セクションの 「**Live Metrics Stream**」 を選択します。
 

@@ -74,7 +74,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     
     1.  「**リソース グループ**」 セクションで、「**新規作成**」 を選択し、「**ManagedPlatform**」と入力してから、「**OK**」 を選択します。
     
-    1.  「**ストレージ アカウント名**」 テキスト ボックスに「**imgstor*[yourname]***」と入力します。 
+    1.  「**ストレージ アカウント名**」 テキスト ボックスに「**imgstor[yourname]**」と入力します。 
     
     1.  「**場所**」 リストで、「**(US) 米国東部**」 リージョンを選択します。
     
@@ -108,7 +108,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  **リソース グループ** ブレードで、この課題で作成済みの **ManagedPlatform** リソース グループを選択します。
 
-1.  **ManagedPlatform** ブレードで、 この課題で作成した済みの **imgstor*[yourname]*** ストレージ アカウントを選択します。
+1.  **ManagedPlatform** ブレードで、 この課題で作成した済みの **imgstor[yourname]** ストレージ アカウントを選択します。
 
 1.  **ストレージ アカウント** ブレードの **BLOB サービス**セクションで、**Containers** リンクを選択します。
 
@@ -154,11 +154,11 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     
     1.  「**リソース グループ**」 ドロップダウン リストで、**ManagedPlatform** を選択 します。
     
-    1.  「**名前**」 テキスト ボックスに、「**imgapi*[yourname]***」と入力します。
+    1.  「**名前**」 テキスト ボックスに、「**imgapi[yourname]**」と入力します。
 
     1.  「**発行**」 セクションで、「**コード**」 を選択します。
 
-    1.  「**ランタイム スタック**」ドロップダウン リストで、**NET Core 3.0 (現在)** を選択します。
+    1.  「**ランタイム スタック**」ドロップダウン リストで、**NET Core 3.1 (現在)** を選択します。
 
     1.  「**オペレーティング システム**」 セクションで、「**Windows**」 を選択します。
 
@@ -186,7 +186,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  **リソース グループ** ブレードで、この課題で作成済みの **ManagedPlatform** リソース グループを選択します。
 
-1.  **ManagedPlatform** ブレードで、 この課題で作成済みの **imgapi*[yourname]*** Web アプリを選択します。
+1.  **ManagedPlatform** ブレードで、 この課題で作成済みの **imgapi[yourname]** Web アプリを選択します。
 
 1.  「**Web アプリ**」 ブレードの 「**設定**」 セクションで、**構成**リンクを選択します。
 
@@ -246,13 +246,13 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     az webapp list --resource-group ManagedPlatform
     ```
 
-1.	次のコマンドを入力し、Enter キーを選択すると、 プレフィックス **imgapi\*** を持つアプリが見つかります。
+1.	次のコマンドを入力し、Enter キーを選択すると、 プレフィックス **imgapi** を持つアプリが見つかります。
 
     ```
     az webapp list --resource-group ManagedPlatform --query "[?starts_with(name, 'imgapi')]"
     ```
 
-1.	次のコマンドを入力し、Enter キーを選択して、プレフィックス **imgapi\*** を持つ単一のアプリの名前のみをレンダリングします。
+1.	次のコマンドを入力し、Enter キーを選択して、プレフィックス **imgapi** を持つ単一のアプリの名前のみをレンダリングします。
 
     ```
     az webapp list --resource-group ManagedPlatform --query "[?starts_with(name, 'imgapi')].{Name:name}" --output tsv
@@ -278,7 +278,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.	**リソース グループ** ブレードで、 この課題で作成済みの **ManagedPlatform** リソース グループを見つけて選択します。
 
-1.	**ManagedPlatform** ブレードで、 この課題で作成済みの **imgapi*[yourname]*** Web アプリを選択します。
+1.	**ManagedPlatform** ブレードで、 この課題で作成済みの **imgapi[yourname]** Web アプリを選択します。
 
 1.	「**Web アプリ**」 ブレードから、「**ブラウザー**」 を選択します。
 
@@ -316,11 +316,11 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     
     1.  「**リソース グループ**」 ドロップダウン リストで、**ManagedPlatform** を選択 します。
     
-    1.  「**名前**」 テキスト ボックスに、「**imgweb*[yourname]***」 と入力します。
+    1.  「**名前**」 テキスト ボックスに、「**imgweb[yourname]**」 と入力します。
 
     1.  「**発行**」 セクションで、**コード**を選択します。
 
-    1.  「**ランタイム スタック**」 ドロップダウン リストで、「**NET Core 3.0 (現在)**」 を選択します。
+    1.  「**ランタイム スタック**」 ドロップダウン リストで、「**NET Core 3.1 (現在)**」 を選択します。
 
     1.  「**オペレーティング システム**」 セクションで、「**Windows**」 を選択します。
 
@@ -346,7 +346,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  **リソース グループ** ブレードで、この課題で作成済みの **ManagedPlatform** リソース グループを選択します。
 
-1.  「**ManagedPlatform**」 ブレードで、 この課題で作成済みの **imgweb*[yourname]*** Web アプリを選択します。
+1.  「**ManagedPlatform**」 ブレードで、 この課題で作成済みの **imgweb[yourname]** Web アプリを選択します。
 
 1.  「**Web アプリ**」 ブレードの 「**設定**」 セクションで、**構成**リンクを選択します。
 
@@ -404,13 +404,13 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     az webapp list --resource-group ManagedPlatform
     ```
 
-1.	次のコマンドを入力し、Enter キーを選択すると、プレフィックス **imgweb\*** を持つアプリを見つけます。
+1.	次のコマンドを入力し、Enter キーを選択すると、プレフィックス **imgweb** を持つアプリを見つけます。
 
     ```
     az webapp list --resource-group ManagedPlatform --query "[?starts_with(name, 'imgweb')]"
     ```
 
-1.	次のコマンドを入力し、Enterキーを選択すると、プレフィックス **imgweb\*** を持つ単一のアプリの名前のみをレンダリングします。
+1.	次のコマンドを入力し、Enterキーを選択すると、プレフィックス **imgweb** を持つ単一のアプリの名前のみをレンダリングします。
 
     ```
     az webapp list --resource-group ManagedPlatform --query "[?starts_with(name, 'imgweb')].{Name:name}" --output tsv
@@ -436,7 +436,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.	**リソース グループ** ブレードで、この課題で作成済みの **ManagedPlatform** リソース グループを選択します。
 
-1.	「**ManagedPlatform**」 ブレードで、 この課題で作成済みの **imgweb*[yourname]*** Web アプリを選択します。
+1.	「**ManagedPlatform**」 ブレードで、 この課題で作成済みの **imgweb[yourname]** Web アプリを選択します。
 
 1.	「**Web アプリ**」 ブレードから、「**ブラウザー**」 を選択します。
 
